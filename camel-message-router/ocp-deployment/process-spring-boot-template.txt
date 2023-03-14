@@ -16,5 +16,4 @@ oc process -f fuse-spring-boot-template.yaml \
 -p DB_SERVICE_PASSWORD=password \
 -o yaml > processed-fuse-sb-template.yaml
 
-#oc create -f processed-fuse-template.yaml
-#oc policy add-role-to-user view --serviceaccount=default
+oc create -f processed-fuse-sb-template.yaml
