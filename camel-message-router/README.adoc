@@ -1,1 +1,8 @@
+# camel-message-router
+Spring boot camel service that attempts to route soap requests based on message content
 
+## standalone
+mvn spring-boot:run
+
+## openshift
+see ocp-deployment folder for template deployment scripts.
