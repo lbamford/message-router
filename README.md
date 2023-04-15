@@ -10,3 +10,4 @@ mvn spring-boot:run
 
 ### openshift
 see ocp-deployment folder for template deployment scripts.
+
